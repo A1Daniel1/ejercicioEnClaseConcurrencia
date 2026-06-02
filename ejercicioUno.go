@@ -8,10 +8,13 @@ import (
 func main() {
 	maximo := 50000000000
 	fmt.Println("numero a contar", maximo)
+	intervalos := 2
+
+	var numeros
 
 	inicio := time.Now()
 
-	contador(maximo)
+	contador(maximo / 2)
 
 	duracion := time.Since(inicio)
 
