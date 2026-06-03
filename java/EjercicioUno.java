@@ -28,7 +28,7 @@ public class EjercicioUno {
     public static void main(String[] args) throws InterruptedException {
 
         int maximo = 500_000_000;
-        int cantidadHilos = 1;
+        int cantidadHilos = 100;
 
         int tamanoIntervalo = maximo / cantidadHilos;
 
