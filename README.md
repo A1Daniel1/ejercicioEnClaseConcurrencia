@@ -31,3 +31,18 @@ Se observa que el tiempo de ejecución disminuye al aumentar la cantidad de hilo
 ## Conclusión
 
 La cantidad óptima de hilos depende del número de núcleos disponibles y de la carga de trabajo. Utilizar más hilos no siempre implica una ejecución más rápida.
+
+## Ejecución
+
+### Java
+Para compilar y ejecutar el ejercicio en Java:
+```bash
+javac java/EjercicioUno.java
+java -cp java EjercicioUno
+```
+
+### Go
+Para ejecutar el ejercicio en Go:
+```bash
+go run go/ejercicioUno.go
+```
